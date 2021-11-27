@@ -1,5 +1,10 @@
 section {
     padding-top: 3.5rem;
+    background-color: #fff;
+}
+
+.banner {
+    min-height: 10vh;
 }
 
 footer {
