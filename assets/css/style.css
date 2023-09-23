@@ -1,37 +1,40 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 section {
-    padding-top: 3.5rem;
-    background-color: #fff;
+  padding-top: 3.5rem;
+  background-color: #fff;
 }
 
 .banner {
-    min-height: 10vh;
+  min-height: 10vh;
 }
 
 footer {
-    margin-top: 1rem;
-    min-height: 2rem;
+  margin-top: 1rem;
+  min-height: 2rem;
 }
 
 .carousel-item {
-    height: 15rem;
+  height: 15rem;
 }
 
-.carousel-item>img {
-    position: absolute;
-    top: 0;
-    left: 0;
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @media (min-width: 40em) {
-
-    /* Bump up size of carousel content */
-    .carousel-item {
-        height: 10rem;
-    }
+  /* Bump up size of carousel content */
+  .carousel-item {
+    height: 10rem;
+  }
 }
 
 @media (min-width: 62em) {
-    .carousel-item {
-        height: 36rem;
-    }
+  .carousel-item {
+    height: 36rem;
+  }
 }
